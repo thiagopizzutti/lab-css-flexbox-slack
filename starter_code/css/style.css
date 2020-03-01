@@ -1,0 +1,41 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 0.5px 0.5px 1px grey;
+  opacity: 0.9;
+  background-color: #fff; }
+  .navbar h3 {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600; }
+  .navbar .nav-item {
+    font-size: 10px;
+    margin-right: 10px;
+    font-weight: 700; }
+
+.main-text-right p {
+  font-weight: 300;
+  font-size: 17px;
+  color: #5b5e6d; }
+.main-text-right .sign-in-text {
+  font-size: 12px; }
+
+.main-title {
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: 400;
+  color: #2C303F; }
+
+.btn {
+  font-size: 14px;
+  font-weight: 200; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+
+  .btn {
+    min-width: 320px; }
+
+  .sign-in-text {
+    text-align: center; } }
